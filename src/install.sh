@@ -17,6 +17,6 @@ cp -rv ${PLUGIN_NAME}* ${PLUGIN_DEST}
 
 LOCALE_DEST=/usr/share/locale
 
-sudo cp -rv ${PLUGIN_NAME}/locale/* ${LOCALE_DEST}
+cp -rv ${PLUGIN_NAME}/locale/* ${LOCALE_DEST}
 
 
